@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochrezept Pool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kochrezept Pool</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Rezepte</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Vegetarisch</a></li>
+                        <li><a href="#">Fleisch</a></li>
+                        <li><a href="#">Desserts</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Favoriten</a></li>
+                <li><input type="text" id="search-bar" placeholder="Suche..."></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <button class="slider-button prev">⟨</button>
+        <div class="slides">
+            <div class="slide">
+                <div class="recipe-card">
+                    <img src="bilder/rezept1.jpg" alt="Rezept 1">
+                    <h3>Rezept 1</h3>
+                    <p>Kurzbeschreibung des Rezepts...</p>
+                    <a href="rezeptdetailseiten/rezept1.html" class="detail-link">Details</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="recipe-card">
+                    <img src="bilder/rezept2.jpg" alt="Rezept 2">
+                    <h3>Rezept 2</h3>
+                    <p>Kurzbeschreibung des Rezepts...</p>
+                    <a href="rezeptdetailseiten/rezept2.html" class="detail-link">Details</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="recipe-card">
+                    <img src="bilder/rezept3.jpg" alt="Rezept 3">
+                    <h3>Rezept 3</h3>
+                    <p>Kurzbeschreibung des Rezepts...</p>
+                    <a href="rezeptdetailseiten/rezept3.html" class="detail-link">Details</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="recipe-card">
+                    <img src="bilder/rezept4.jpg" alt="Rezept 4">
+                    <h3>Rezept 4</h3>
+                    <p>Kurzbeschreibung des Rezepts...</p>
+                    <a href="rezeptdetailseiten/rezept4.html" class="detail-link">Details</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="recipe-card">
+                    <img src="bilder/rezept5.jpg" alt="Rezept 5">
+                    <h3>Rezept 5</h3>
+                    <p>Kurzbeschreibung des Rezepts...</p>
+                    <a href="rezeptdetailseiten/rezept5.html" class="detail-link">Details</a>
+                </div>
+            </div>
+        </div>
+        <button class="slider-button next">⟩</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kochrezept Pool</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
